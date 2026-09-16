@@ -1,0 +1,25 @@
+================================================================================
+TIMESTAMP   : 2026-08-21T14:23:30+07:00
+OPERATOR    : organizer.agent
+ACTION TYPE : REFACTOR
+TARGETS     :
+  - Year 2/Semester 1/CS213 - Data Structure/Private/Docs/
+  - Year 2/Semester 1/CS221 - Computer Architecture/Private/Docs/
+  - Year 2/Semester 1/CS240 - Data Science/Private/Docs/
+  - Year 2/Semester 1/CS261 - Software Engineering/Private/Docs/
+  - Year 2/Semester 1/HS369 - History of Modern Japan/Private/Docs/
+  - Year 2/Semester 1/PY252 - Psychology/Private/Docs/
+  - Year 2/Semester 1/ST329 - Stats for Data Science/Private/Docs/
+  - .agents/AGENTS.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/CS221.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/General Purpose.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/CS240.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/The Data Science.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/Data Science Process.md
+CHANGELOG   :
+  - Moved all course lecture slides, PDFs, and university teaching documents from <Course>/Docs to <Course>/Private/Docs across all classes to ensure copyright protection and automatic exclusion by .gitignore (**/[Pp]rivate/** rule).
+  - Updated .agents/AGENTS.md directory map and added explicit University Assets & Copyright Protection boundaries.
+  - Updated document and slide references in course index and lecture notes to point to Private/Docs/.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

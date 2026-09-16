@@ -1,0 +1,21 @@
+================================================================================
+TIMESTAMP   : 2026-08-28T16:08:00+07:00
+COMMIT SHA  : c2d4dfe9a2fa6e0f9b66c3b577f1f71d60825709
+OPERATOR    : summarizer.agent.md / obsidian-expert
+ACTION TYPE : SUMMARIZE
+TARGETS     :
+  - Year 2/Semester 1/CS261 - Software Engineering/Lectures/Diagram.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Diagram.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Lectures/CS261.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+CHANGELOG   :
+  - Created comprehensive UML diagrams reference in CS261/Lectures/Diagram.md covering all 14 UML 2.5 standard diagrams (7 Structural + 7 Behavioral) and Entity-Relationship Diagram (ERD).
+  - Provided full theoretical explanations, notations, multiplicities, engineering use cases, and valid Mermaid syntax for every diagram type:
+    * Structural: Class Diagram, Object Diagram, Package Diagram, Component Diagram, Deployment Diagram, Composite Structure Diagram, Profile Diagram.
+    * Behavioral: Use Case Diagram, Activity Diagram, State Machine Diagram, Sequence Diagram, Communication Diagram, Timing Diagram, Interaction Overview Diagram.
+    * Bonus: Entity-Relationship Diagram (ERD) with relational schema mapping and Master Decision Selection Matrix.
+  - Created symbolic link CS261/Diagram.md pointing to Lectures/Diagram.md for seamless relative path and wikilink resolution.
+  - Updated CS261.md and Year 2 Semester 1.md index tables to integrate [[Diagram]].
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

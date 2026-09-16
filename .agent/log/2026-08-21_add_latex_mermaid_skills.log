@@ -1,0 +1,18 @@
+================================================================================
+TIMESTAMP   : 2026-08-21T15:56:00+07:00
+COMMIT SHA  : 443e146 (443e14670c26203c8d704cee289b6a612e05f53d)
+OPERATOR    : organizer.agent
+ACTION TYPE : CONFIG_UPDATE
+TARGETS     :
+  - .agents/skills/latex-math-skill.md
+  - .agents/skills/mermaid-diagram-skill.md
+  - .agents/skills/obsidian-expert-skill.md
+  - .agents/AGENTS.md
+CHANGELOG   :
+  - Created comprehensive LaTeX & MathJax mathematical notation skill (latex-math-skill.md) covering Delimiters, Greek letters, Set theory, Calculus, Linear Algebra & Matrices, Probability/Stats, Multi-line alignments, and math typography.
+  - Created comprehensive Mermaid diagram specification skill (mermaid-diagram-skill.md) covering Flowcharts, Sequence diagrams, Class diagrams, ERDs, State machines, and Git graphs.
+  - Updated obsidian-expert-skill.md to modularly reference latex-math-skill.md and mermaid-diagram-skill.md.
+  - Updated .agents/AGENTS.md Workspace Directory Map to index all active skills.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

@@ -1,0 +1,17 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "University/CSTU40/Year 1/Semester 1/CS100 - Basic Web Development/Labs/",
+    "University/CSTU40/Year 1/Semester 1/CS100 - Basic Web Development/Projects/",
+    "University/CSTU40/Year 1/Semester 1/CS100 - Basic Web Development/Assignments/",
+    "Template/"
+  ],
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

@@ -1,0 +1,28 @@
+================================================================================
+TIMESTAMP   : 2026-09-15T23:26:33+07:00
+COMMIT SHA  : 0d51af3
+OPERATOR    : organizer.agent.md
+ACTION TYPE : CONFIG_UPDATE
+TARGETS     :
+  - .agents/AGENTS.md
+  - .agents/rules/01-style-language.md
+  - .agents/rules/02-tree-hierarchy.md
+  - .agents/rules/03-frontmatter-schema.md
+  - .agents/rules/04-workspace-structure.md
+  - .agents/rules/05-logging-git.md
+  - .agents/rules/06-verification.md
+  - .agents/scripts/lint_vault.py
+  - .agents/skills/latex-math-skill.md
+  - .agents/skills/obsidian-expert-skill.md
+CHANGELOG   :
+  - Rewrote AGENTS.md into concise, high-density operations manual in English
+  - Split rules out of AGENTS.md into modular .agents/rules/ specifications
+  - Enforced zero-emoji mandate and single-language policy without parenthetical glosses
+  - Enforced strict tree hierarchy: parent nodes link down, leaves link up via YAML parent
+  - Defined strict YAML frontmatter schemas with plain strings and zero wikilinks
+  - Replaced body breadcrumb navigators with YAML metadata
+  - Created automated lint script (.agents/scripts/lint_vault.py) for pre-commit verification
+  - Cleaned remaining emoji characters from skills
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

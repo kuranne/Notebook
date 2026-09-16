@@ -1,0 +1,16 @@
+================================================================================
+TIMESTAMP   : 2026-09-05T00:52:00+07:00
+COMMIT SHA  : PENDING (Git config access blocked by environment sandbox)
+OPERATOR    : summarizer.agent.md / obsidian-expert
+ACTION TYPE : SUMMARIZE
+TARGETS     :
+  - Year 2/Semester 1/ST329 - Stats for Data Science/Lectures/Formulae.md
+CHANGELOG   :
+  - Synthesized and summarized all key mathematical formulas, distributions, and concise Thai descriptions across Chapters 1 to 5 from course slide documents in Private/Docs/ (ST329-บทที่ 1 ความน่าจะเป็น.pdf through ST329-บทที่ 5 การแจกแจงหลายตัวแปร.pdf).
+  - Formatted discrete distributions (Bernoulli, Binomial, Geometric, Negative Binomial, Hypergeometric, Poisson) with PMF, Mean, Variance, and usage constraints.
+  - Formatted continuous distributions (Continuous Uniform, Normal, Standard Normal, Exponential, Gamma, Chi-Square) with PDF, Mean, Variance, and parameter relationships.
+  - Formatted multivariate concepts: Joint PMF/PDF/CDF, Marginals, Conditionals, Independence, Covariance, Linear Combination Variance, and Correlation Coefficient.
+  - Formatted document using Obsidian Expert YAML frontmatter and LaTeX math typography.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

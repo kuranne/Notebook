@@ -1,0 +1,14 @@
+================================================================================
+TIMESTAMP   : 2026-08-21T14:30:15+07:00
+COMMIT SHA  : 42dbdb1 (42dbdb100bab2d15ef2aecc7b9838d7b399a8c72)
+OPERATOR    : organizer.agent
+ACTION TYPE : CONFIG_UPDATE
+TARGETS     :
+  - .agents/AGENTS.md
+CHANGELOG   :
+  - Updated .agents/AGENTS.md Section 4 with mandatory "Commit Before Logging" workflow.
+  - Added COMMIT SHA requirement to the standardized log format to enable easy rollbacks (e.g. via git revert/checkout).
+  - Updated Boundaries & Operational Safety checklist to mandate committing changes prior to logging.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

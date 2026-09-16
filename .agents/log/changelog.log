@@ -1,0 +1,301 @@
+================================================================================
+TIMESTAMP   : 2026-08-20T20:09:00+07:00
+OPERATOR    : organizer.agent
+ACTION TYPE : CONFIG_UPDATE
+TARGETS     :
+  - .agents/AGENTS.md
+  - .gitignore
+  - .agent/log/
+  - .agents/log/
+CHANGELOG   :
+  - Added section 4 (Changelog & Execution Logging Method) to .agents/AGENTS.md.
+  - Specified logging hierarchy, naming conventions (YYYY-MM-DD_<agent_or_task>.log), and structured entry format.
+  - Updated Workspace Directory Map with .agent/log/ and .agents/log/.
+  - Added *.log, log/, .agent/log/, and .agents/log/ to .gitignore.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+
+================================================================================
+TIMESTAMP   : 2026-08-20T20:13:45+07:00
+OPERATOR    : organizer.agent
+ACTION TYPE : ORGANIZE
+TARGETS     :
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/Memory.md
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/CS213.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+  - CSTU40.md
+CHANGELOG   :
+  - Refactored, enriched, and translated Memory.md into comprehensive academic English covering Process Memory Layout (Stack, Heap, BSS, Data, Text), C dynamic memory (malloc, calloc, realloc, free), C++ new/delete, RAII smart pointers, and memory safety pitfalls.
+  - Connected [[Memory]] into CS213.md course roadmap, Year 2 Semester 1.md, and CSTU40.md root MOC.
+  - Verified full compliance of all CS notes with the English-only policy.
+  - Performed sanity checks on YAML frontmatter, Obsidian callouts, and bidirectional wikilinks across the vault.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+
+================================================================================
+TIMESTAMP   : 2026-08-21T10:44:20+07:00
+OPERATOR    : organizer.agent
+ACTION TYPE : ORGANIZE
+TARGETS     :
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/Type Of Data.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/CS240.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+  - CSTU40.md
+CHANGELOG   :
+  - Formatted and inserted the Data Measurement Scales (Nominal, Ordinal, Interval, Ratio) comparison table into Type Of Data.md.
+  - Enriched Type Of Data.md with complete definitions for Structured, Semi-Structured, and Unstructured Data, Qualitative vs Quantitative categorization, and Machine Learning encoding implications.
+  - Updated CS240.md lecture index, Year 2 Semester 1.md, and CSTU40.md to cross-link [[Type Of Data]].
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+
+================================================================================
+TIMESTAMP   : 2026-08-21T14:23:30+07:00
+OPERATOR    : organizer.agent
+ACTION TYPE : REFACTOR
+TARGETS     :
+  - Year 2/Semester 1/CS213 - Data Structure/Private/Docs/
+  - Year 2/Semester 1/CS221 - Computer Architecture/Private/Docs/
+  - Year 2/Semester 1/CS240 - Data Science/Private/Docs/
+  - Year 2/Semester 1/CS261 - Software Engineering/Private/Docs/
+  - Year 2/Semester 1/HS369 - History of Modern Japan/Private/Docs/
+  - Year 2/Semester 1/PY252 - Psychology/Private/Docs/
+  - Year 2/Semester 1/ST329 - Stats for Data Science/Private/Docs/
+  - .agents/AGENTS.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/CS221.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/General Purpose.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/CS240.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/The Data Science.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/Data Science Process.md
+CHANGELOG   :
+  - Moved all course lecture slides, PDFs, and university teaching documents from <Course>/Docs to <Course>/Private/Docs across all classes to ensure copyright protection and automatic exclusion by .gitignore (**/[Pp]rivate/** rule).
+  - Updated .agents/AGENTS.md directory map and added explicit University Assets & Copyright Protection boundaries.
+  - Updated document and slide references in course index and lecture notes to point to Private/Docs/.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+
+================================================================================
+TIMESTAMP   : 2026-08-21T14:30:15+07:00
+COMMIT SHA  : 42dbdb1 (42dbdb100bab2d15ef2aecc7b9838d7b399a8c72)
+OPERATOR    : organizer.agent
+ACTION TYPE : CONFIG_UPDATE
+TARGETS     :
+  - .agents/AGENTS.md
+CHANGELOG   :
+  - Updated .agents/AGENTS.md Section 4 with mandatory "Commit Before Logging" workflow.
+  - Added COMMIT SHA requirement to the standardized log format to enable easy rollbacks (e.g. via git revert/checkout).
+  - Updated Boundaries & Operational Safety checklist to mandate committing changes prior to logging.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+
+================================================================================
+TIMESTAMP   : 2026-08-21T15:56:00+07:00
+COMMIT SHA  : 443e146 (443e14670c26203c8d704cee289b6a612e05f53d)
+OPERATOR    : organizer.agent
+ACTION TYPE : CONFIG_UPDATE
+TARGETS     :
+  - .agents/skills/latex-math-skill.md
+  - .agents/skills/mermaid-diagram-skill.md
+  - .agents/skills/obsidian-expert-skill.md
+  - .agents/AGENTS.md
+CHANGELOG   :
+  - Created comprehensive LaTeX & MathJax mathematical notation skill (latex-math-skill.md) covering Delimiters, Greek letters, Set theory, Calculus, Linear Algebra & Matrices, Probability/Stats, Multi-line alignments, and math typography.
+  - Created comprehensive Mermaid diagram specification skill (mermaid-diagram-skill.md) covering Flowcharts, Sequence diagrams, Class diagrams, ERDs, State machines, and Git graphs.
+  - Updated obsidian-expert-skill.md to modularly reference latex-math-skill.md and mermaid-diagram-skill.md.
+  - Updated .agents/AGENTS.md Workspace Directory Map to index all active skills.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+================================================================================
+TIMESTAMP   : 2026-08-28T16:08:00+07:00
+COMMIT SHA  : c2d4dfe9a2fa6e0f9b66c3b577f1f71d60825709
+OPERATOR    : summarizer.agent.md / obsidian-expert
+ACTION TYPE : SUMMARIZE
+TARGETS     :
+  - Year 2/Semester 1/CS261 - Software Engineering/Lectures/Diagram.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Diagram.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Lectures/CS261.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+CHANGELOG   :
+  - Created comprehensive UML diagrams reference in CS261/Lectures/Diagram.md covering all 14 UML 2.5 standard diagrams (7 Structural + 7 Behavioral) and Entity-Relationship Diagram (ERD).
+  - Provided full theoretical explanations, notations, multiplicities, engineering use cases, and valid Mermaid syntax for every diagram type:
+    * Structural: Class Diagram, Object Diagram, Package Diagram, Component Diagram, Deployment Diagram, Composite Structure Diagram, Profile Diagram.
+    * Behavioral: Use Case Diagram, Activity Diagram, State Machine Diagram, Sequence Diagram, Communication Diagram, Timing Diagram, Interaction Overview Diagram.
+    * Bonus: Entity-Relationship Diagram (ERD) with relational schema mapping and Master Decision Selection Matrix.
+  - Created symbolic link CS261/Diagram.md pointing to Lectures/Diagram.md for seamless relative path and wikilink resolution.
+  - Updated CS261.md and Year 2 Semester 1.md index tables to integrate [[Diagram]].
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+
+================================================================================
+TIMESTAMP   : 2026-09-05T00:43:00+07:00
+COMMIT SHA  : PENDING (Git config access blocked by environment sandbox)
+OPERATOR    : organizer.agent.md / obsidian-expert
+ACTION TYPE : ORGANIZE
+TARGETS     :
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/Linked List.md
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/Searching.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/Array.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/Y86_64.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/Exploratory Data Analysis.md
+  - Year 2/Semester 1/HS369 - History of Contemporary Japan/Lectures/ระบอบ 1955.md
+  - Year 2/Semester 1/ST329 - Stats for Data Science/Lectures/Distribution.md
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/CS213.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/CS221.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/CS240.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Lectures/CS261.md
+  - Year 2/Semester 1/HS369 - History of Contemporary Japan/Lectures/HS369.md
+  - Year 2/Semester 1/ST329 - Stats for Data Science/Lectures/ST329.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+  - CSTU40.md
+  - .agents/AGENTS.md
+CHANGELOG   :
+  - Formatted and normalized YAML frontmatter, metadata properties (type, title, course_code, semester, week, tags, description), and navigation breadcrumbs across all recent Year 2 Semester 1 lecture notes (Linked List, Searching, Array, Y86_64, Exploratory Data Analysis, ระบอบ 1955, Distribution) in strict adherence to obsidian-expert-skill standards.
+  - Linked new linear data structures and searching algorithms into CS213.md, connecting Week 5 Labs (Labs/Week5/linked_list/).
+  - Integrated Array memory addressing and Y86-64 datapath into CS221.md and cross-referenced Week 5 Assembly assignments (fibonaci, odd_or_even).
+  - Updated CS240.md curriculum index with Data Cleaning and EDA, indexing newly added Week 3-5 Labs and Notebooks.
+  - Documented Week 5 Docker containerization lab in CS261.md.
+  - Connected 1955 political system note to HS369.md and Cumulative/Survival distribution functions to ST329.md.
+  - Synchronized Year 2 Semester 1.md and root CSTU40.md indexes with all newly added lecture notes and bidirectional wikilinks.
+  - Updated Workspace Directory Map in .agents/AGENTS.md to register CS213/Assets, CS221/Assignment, and CS261/Labs directories.
+STATUS      : SUCCESS
+ERRORS/NOTES: Git status/commit tool encountered sandbox limitation accessing /Users/kuranne/.config/git/config; local vault state fully updated and consistent.
+================================================================================
+
+================================================================================
+TIMESTAMP   : 2026-09-05T00:52:00+07:00
+COMMIT SHA  : PENDING (Git config access blocked by environment sandbox)
+OPERATOR    : summarizer.agent.md / obsidian-expert
+ACTION TYPE : SUMMARIZE
+TARGETS     :
+  - Year 2/Semester 1/ST329 - Stats for Data Science/Lectures/Formulae.md
+CHANGELOG   :
+  - Synthesized and summarized all key mathematical formulas, distributions, and concise Thai descriptions across Chapters 1 to 5 from course slide documents in Private/Docs/ (ST329-บทที่ 1 ความน่าจะเป็น.pdf through ST329-บทที่ 5 การแจกแจงหลายตัวแปร.pdf).
+  - Formatted discrete distributions (Bernoulli, Binomial, Geometric, Negative Binomial, Hypergeometric, Poisson) with PMF, Mean, Variance, and usage constraints.
+  - Formatted continuous distributions (Continuous Uniform, Normal, Standard Normal, Exponential, Gamma, Chi-Square) with PDF, Mean, Variance, and parameter relationships.
+  - Formatted multivariate concepts: Joint PMF/PDF/CDF, Marginals, Conditionals, Independence, Covariance, Linear Combination Variance, and Correlation Coefficient.
+  - Formatted document using Obsidian Expert YAML frontmatter and LaTeX math typography.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+
+================================================================================
+TIMESTAMP   : 2026-09-09T08:08:05.071686+07:00
+COMMIT SHA  : 166c649cc2ab57391039d97f996ea4902823851a
+OPERATOR    : vault-organizer / duplicate-cleanup
+ACTION TYPE : ORGANIZE
+TARGETS     :
+  - CSTU40 2.md
+  - Year 2/Year 3.md
+  - Year 2/Semester 1/Year 2 Semester 1 2.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Diagram 2.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/sample 2.war
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/QUERY 2.sql
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DB_POS 2.sql
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerContainer_NodeJS 2.dockerfile
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/deployment-diagram 2.puml
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerContainer_MS_SQL 2.dockerfile
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerSQLServerTomcatServer-update-280869 2.pptx
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend 2.rar
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/setup 2.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Deployment_Diagram 2.png
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Backend 2.rar
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerContainer_Tomcat 2.dockerfile
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend/server 2.js
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend/package-lock 2.json
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend/package 2.json
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Backend/pom 2.xml
+  - ... [537 more verified duplicate files]
+CHANGELOG   :
+  - Scanned repository and identified 557 duplicate and conflict items across Year 1 and Year 2 vaults.
+  - Safely deleted 550 identical iCloud sync conflict files (matching '* 2.*', '* 3.*', etc.) verified by byte-for-byte SHA256 checksums against canonical originals.
+  - Pruned 2 differing conflict files (.gitignore 2 and static_instant 2.java) in favor of updated originals.
+  - Removed 6 accidental / misnamed duplicate notes (Year 3.md, Year 1 Semester 3.md, CS261 root Diagram.md, ระบอบ 1956.md, add1000 2.asm, duplicate pasted screenshot).
+  - Cleaned 2 duplicate media assets in CS100 Final Street Booth project (sunday - 4.png, Teddy bear - 3.png).
+  - Removed 3 redundant Java build documentation copies inside CS111 Week 3 bin/ directory.
+  - Reclaimed ~85.88 MB of vault disk space.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+================================================================================
+TIMESTAMP   : 2026-09-15T23:26:33+07:00
+COMMIT SHA  : 0d51af3
+OPERATOR    : organizer.agent.md
+ACTION TYPE : CONFIG_UPDATE
+TARGETS     :
+  - .agents/AGENTS.md
+  - .agents/rules/01-style-language.md
+  - .agents/rules/02-tree-hierarchy.md
+  - .agents/rules/03-frontmatter-schema.md
+  - .agents/rules/04-workspace-structure.md
+  - .agents/rules/05-logging-git.md
+  - .agents/rules/06-verification.md
+  - .agents/scripts/lint_vault.py
+  - .agents/skills/latex-math-skill.md
+  - .agents/skills/obsidian-expert-skill.md
+CHANGELOG   :
+  - Rewrote AGENTS.md into concise, high-density operations manual in English
+  - Split rules out of AGENTS.md into modular .agents/rules/ specifications
+  - Enforced zero-emoji mandate and single-language policy without parenthetical glosses
+  - Enforced strict tree hierarchy: parent nodes link down, leaves link up via YAML parent
+  - Defined strict YAML frontmatter schemas with plain strings and zero wikilinks
+  - Replaced body breadcrumb navigators with YAML metadata
+  - Created automated lint script (.agents/scripts/lint_vault.py) for pre-commit verification
+  - Cleaned remaining emoji characters from skills
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+================================================================================
+TIMESTAMP   : 2026-09-15T23:46:50+07:00
+COMMIT SHA  : a3e61c8
+OPERATOR    : organizer.agent.md
+ACTION TYPE : REFACTOR
+TARGETS     :
+  - README.md
+  - Year 1/**/*.md
+  - Year 2/**/*.md
+CHANGELOG   :
+  - Standardized YAML frontmatter schemas (class, parent, type, title) across all notes
+  - Removed all legacy body navigation callouts (> [!info] Navigation:)
+  - Sanitized frontmatter properties by removing [[wikilinks]] in favor of plain strings
+  - Eliminated bilingual parenthetical translations across all Thai and English notes
+  - Stripped remaining emojis and normalized heading structures
+  - Verified 100% compliance across 301 files using .agents/scripts/lint_vault.py (0 errors)
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
+================================================================================
+TIMESTAMP   : 2026-09-16T00:43:17+07:00
+COMMIT SHA  : 591d0c5
+OPERATOR    : organizer.agent.md
+ACTION TYPE : REFACTOR
+TARGETS     :
+  - .gitignore
+  - Year 1/Semester 1/CS100 - Basic Web Development/Labs/Lab09/GitForTeamStory/.gsc.config
+  - Year 1/Semester 1/LAS101 - Critical Thinking/Lectures/สวรรยา แบบฝึกหัดตีความ.pdf
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerSQLServerTomcatServer-update-280869.pptx
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Backend.rar
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend.rar
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/sample.war
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/setup.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/CS221.md
+  - Year 2/Semester 1/PY252 - Psychology/Lectures/PY252.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+  - Year 2/Year 2.md
+CHANGELOG   :
+  - Moved copyrighted exercise handout (LAS101 PDF) to Private/Docs/ and untracked from Git
+  - Moved instructor lecture deck (CS261 PPTX) to Private/Docs/ and untracked from Git
+  - Untracked course distribution archives (Backend.rar, Frontend.rar, sample.war)
+  - Added *.rar, *.war, *.zip, *.tar, *.gz, and .gsc.config to .gitignore
+  - Redacted personal email and local paths from .gsc.config
+  - Redacted database root passwords from Docker setup.md files
+  - Redacted instructors' direct personal emails from notes and summary tables
+  - Verified 0 errors across entire vault using .agents/scripts/lint_vault.py
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

@@ -1,0 +1,19 @@
+================================================================================
+TIMESTAMP   : 2026-09-15T23:46:50+07:00
+COMMIT SHA  : a3e61c8
+OPERATOR    : organizer.agent.md
+ACTION TYPE : REFACTOR
+TARGETS     :
+  - README.md
+  - Year 1/**/*.md
+  - Year 2/**/*.md
+CHANGELOG   :
+  - Standardized YAML frontmatter schemas (class, parent, type, title) across all notes
+  - Removed all legacy body navigation callouts (> [!info] Navigation:)
+  - Sanitized frontmatter properties by removing [[wikilinks]] in favor of plain strings
+  - Eliminated bilingual parenthetical translations across all Thai and English notes
+  - Stripped remaining emojis and normalized heading structures
+  - Verified 100% compliance across 301 files using .agents/scripts/lint_vault.py (0 errors)
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

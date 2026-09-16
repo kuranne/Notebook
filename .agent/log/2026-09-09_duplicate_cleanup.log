@@ -1,0 +1,38 @@
+================================================================================
+TIMESTAMP   : 2026-09-09T08:08:05.071686+07:00
+COMMIT SHA  : 166c649cc2ab57391039d97f996ea4902823851a
+OPERATOR    : vault-organizer / duplicate-cleanup
+ACTION TYPE : ORGANIZE
+TARGETS     :
+  - CSTU40 2.md
+  - Year 2/Year 3.md
+  - Year 2/Semester 1/Year 2 Semester 1 2.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Diagram 2.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/sample 2.war
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/QUERY 2.sql
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DB_POS 2.sql
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerContainer_NodeJS 2.dockerfile
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/deployment-diagram 2.puml
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerContainer_MS_SQL 2.dockerfile
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerSQLServerTomcatServer-update-280869 2.pptx
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend 2.rar
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/setup 2.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Deployment_Diagram 2.png
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Backend 2.rar
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerContainer_Tomcat 2.dockerfile
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend/server 2.js
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend/package-lock 2.json
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend/package 2.json
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Backend/pom 2.xml
+  - ... [537 more verified duplicate files]
+CHANGELOG   :
+  - Scanned repository and identified 557 duplicate and conflict items across Year 1 and Year 2 vaults.
+  - Safely deleted 550 identical iCloud sync conflict files (matching '* 2.*', '* 3.*', etc.) verified by byte-for-byte SHA256 checksums against canonical originals.
+  - Pruned 2 differing conflict files (.gitignore 2 and static_instant 2.java) in favor of updated originals.
+  - Removed 6 accidental / misnamed duplicate notes (Year 3.md, Year 1 Semester 3.md, CS261 root Diagram.md, ระบอบ 1956.md, add1000 2.asm, duplicate pasted screenshot).
+  - Cleaned 2 duplicate media assets in CS100 Final Street Booth project (sunday - 4.png, Teddy bear - 3.png).
+  - Removed 3 redundant Java build documentation copies inside CS111 Week 3 bin/ directory.
+  - Reclaimed ~85.88 MB of vault disk space.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

@@ -1,0 +1,34 @@
+================================================================================
+TIMESTAMP   : 2026-09-05T00:43:00+07:00
+COMMIT SHA  : PENDING (Git config access blocked by environment sandbox)
+OPERATOR    : organizer.agent.md / obsidian-expert
+ACTION TYPE : ORGANIZE
+TARGETS     :
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/Linked List.md
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/Searching.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/Array.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/Y86_64.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/Exploratory Data Analysis.md
+  - Year 2/Semester 1/HS369 - History of Contemporary Japan/Lectures/ระบอบ 1955.md
+  - Year 2/Semester 1/ST329 - Stats for Data Science/Lectures/Distribution.md
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/CS213.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/CS221.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/CS240.md
+  - Year 2/Semester 1/CS261 - Software Engineering/Lectures/CS261.md
+  - Year 2/Semester 1/HS369 - History of Contemporary Japan/Lectures/HS369.md
+  - Year 2/Semester 1/ST329 - Stats for Data Science/Lectures/ST329.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+  - CSTU40.md
+  - .agents/AGENTS.md
+CHANGELOG   :
+  - Formatted and normalized YAML frontmatter, metadata properties (type, title, course_code, semester, week, tags, description), and navigation breadcrumbs across all recent Year 2 Semester 1 lecture notes (Linked List, Searching, Array, Y86_64, Exploratory Data Analysis, ระบอบ 1955, Distribution) in strict adherence to obsidian-expert-skill standards.
+  - Linked new linear data structures and searching algorithms into CS213.md, connecting Week 5 Labs (Labs/Week5/linked_list/).
+  - Integrated Array memory addressing and Y86-64 datapath into CS221.md and cross-referenced Week 5 Assembly assignments (fibonaci, odd_or_even).
+  - Updated CS240.md curriculum index with Data Cleaning and EDA, indexing newly added Week 3-5 Labs and Notebooks.
+  - Documented Week 5 Docker containerization lab in CS261.md.
+  - Connected 1955 political system note to HS369.md and Cumulative/Survival distribution functions to ST329.md.
+  - Synchronized Year 2 Semester 1.md and root CSTU40.md indexes with all newly added lecture notes and bidirectional wikilinks.
+  - Updated Workspace Directory Map in .agents/AGENTS.md to register CS213/Assets, CS221/Assignment, and CS261/Labs directories.
+STATUS      : SUCCESS
+ERRORS/NOTES: Git status/commit tool encountered sandbox limitation accessing /Users/kuranne/.config/git/config; local vault state fully updated and consistent.
+================================================================================

@@ -1,0 +1,17 @@
+================================================================================
+TIMESTAMP   : 2026-08-20T20:13:45+07:00
+OPERATOR    : organizer.agent
+ACTION TYPE : ORGANIZE
+TARGETS     :
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/Memory.md
+  - Year 2/Semester 1/CS213 - Data Structure/Lectures/CS213.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+  - CSTU40.md
+CHANGELOG   :
+  - Refactored, enriched, and translated Memory.md into comprehensive academic English covering Process Memory Layout (Stack, Heap, BSS, Data, Text), C dynamic memory (malloc, calloc, realloc, free), C++ new/delete, RAII smart pointers, and memory safety pitfalls.
+  - Connected [[Memory]] into CS213.md course roadmap, Year 2 Semester 1.md, and CSTU40.md root MOC.
+  - Verified full compliance of all CS notes with the English-only policy.
+  - Performed sanity checks on YAML frontmatter, Obsidian callouts, and bidirectional wikilinks across the vault.
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

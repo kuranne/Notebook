@@ -1,0 +1,30 @@
+================================================================================
+TIMESTAMP   : 2026-09-16T00:43:17+07:00
+COMMIT SHA  : 591d0c5
+OPERATOR    : organizer.agent.md
+ACTION TYPE : REFACTOR
+TARGETS     :
+  - .gitignore
+  - Year 1/Semester 1/CS100 - Basic Web Development/Labs/Lab09/GitForTeamStory/.gsc.config
+  - Year 1/Semester 1/LAS101 - Critical Thinking/Lectures/สวรรยา แบบฝึกหัดตีความ.pdf
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/DockerSQLServerTomcatServer-update-280869.pptx
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Backend.rar
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/Frontend.rar
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/sample.war
+  - Year 2/Semester 1/CS261 - Software Engineering/Labs/Week5/SetupDocker-20260902/setup.md
+  - Year 2/Semester 1/CS221 - Computer Architecture/Lectures/CS221.md
+  - Year 2/Semester 1/PY252 - Psychology/Lectures/PY252.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+  - Year 2/Year 2.md
+CHANGELOG   :
+  - Moved copyrighted exercise handout (LAS101 PDF) to Private/Docs/ and untracked from Git
+  - Moved instructor lecture deck (CS261 PPTX) to Private/Docs/ and untracked from Git
+  - Untracked course distribution archives (Backend.rar, Frontend.rar, sample.war)
+  - Added *.rar, *.war, *.zip, *.tar, *.gz, and .gsc.config to .gitignore
+  - Redacted personal email and local paths from .gsc.config
+  - Redacted database root passwords from Docker setup.md files
+  - Redacted instructors' direct personal emails from notes and summary tables
+  - Verified 0 errors across entire vault using .agents/scripts/lint_vault.py
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================

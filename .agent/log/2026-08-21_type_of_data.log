@@ -1,0 +1,16 @@
+================================================================================
+TIMESTAMP   : 2026-08-21T10:44:20+07:00
+OPERATOR    : organizer.agent
+ACTION TYPE : ORGANIZE
+TARGETS     :
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/Type Of Data.md
+  - Year 2/Semester 1/CS240 - Data Science/Lectures/CS240.md
+  - Year 2/Semester 1/Year 2 Semester 1.md
+  - CSTU40.md
+CHANGELOG   :
+  - Formatted and inserted the Data Measurement Scales (Nominal, Ordinal, Interval, Ratio) comparison table into Type Of Data.md.
+  - Enriched Type Of Data.md with complete definitions for Structured, Semi-Structured, and Unstructured Data, Qualitative vs Quantitative categorization, and Machine Learning encoding implications.
+  - Updated CS240.md lecture index, Year 2 Semester 1.md, and CSTU40.md to cross-link [[Type Of Data]].
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
