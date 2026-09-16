@@ -299,3 +299,26 @@ CHANGELOG   :
 STATUS      : SUCCESS
 ERRORS/NOTES: None
 ================================================================================
+================================================================================
+TIMESTAMP   : 2026-09-16T10:48:40+07:00
+COMMIT SHA  : ddb729e (Notebook) / 492e755 (CSTU40)
+OPERATOR    : organizer.agent.md
+ACTION TYPE : REFACTOR
+TARGETS     :
+  - .agents/AGENTS.md
+  - .agents/rules/01-style-language.md
+  - .agents/rules/02-logging-git.md
+  - .agents/rules/03-verification.md
+  - University/CSTU40/.agents/AGENTS.md
+  - University/CSTU40/.agents/rules/01-tree-hierarchy.md
+  - University/CSTU40/.agents/rules/02-frontmatter-schema.md
+  - University/CSTU40/.agents/rules/03-workspace-structure.md
+CHANGELOG   :
+  - Relocated CSTU40-specific tree hierarchy, frontmatter schemas, and workspace structure rules to University/CSTU40/.agents/rules/
+  - Created dedicated CSTU40 Agent Operations Manual in University/CSTU40/.agents/AGENTS.md
+  - Removed stale parent files, tools, and personas from CSTU40 git tracking
+  - Refactored Notebook/.agents/AGENTS.md to govern parent vault standards (style, logging, verification, skills)
+  - Renumbered parent rules: 01-style-language.md, 02-logging-git.md, 03-verification.md
+STATUS      : SUCCESS
+ERRORS/NOTES: None
+================================================================================
